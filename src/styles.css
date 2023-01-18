@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #477dba;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.left-form {
+  width: 40%;
+  padding: 20px;
+  margin: auto;
+  box-sizing: border-box;
+  background-color: #742969;
+  border-radius: 10px;
+  box-shadow: 3px 6px 20px #ccc;
+}
+
+.left-form label {
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.left-form input[type="text"],
+.left-form textarea,
+.left-form select {
+  width: 93%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.left-form button[type="submit"] {
+  width: 100%;
+  background-color: #ff8400;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.right-form {
+  width: 40%;
+  padding: 20px;
+  margin: auto;
+  box-sizing: border-box;
+  background-color: #136ace;
+  border-radius: 10px;
+  box-shadow: 3px 6px 20px #ccc;
+}
+
+.right-form h2 {
+  margin-bottom: 20px;
+}
+
+.right-form li {
+  list-style: none;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.right-form li h3 {
+  margin-bottom: 10px;
+}
+
+.right-form li p {
+  margin-bottom: 5px;
+
+}
+
+.right-form button {
+  background-color: #ee4d4d;
+  color: rgb(208, 212, 230);
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  float: right;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f9f9f9; /* or any other background color */
+  border-radius: 10px;
+  box-shadow: 3px 6px 20px rgb(130, 128, 190); /* or any other box shadow */
+  margin-bottom: 10px; /* add some margin below the search bar */
+}
+
+.search-bar input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
