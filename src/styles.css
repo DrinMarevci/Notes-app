@@ -97,10 +97,10 @@ body {
   display: flex;
   align-items: center;
   padding: 10px;
-  background-color: #f9f9f9; /* or any other background color */
+  background-color: #f9f9f9; 
   border-radius: 10px;
-  box-shadow: 3px 6px 20px rgb(130, 128, 190); /* or any other box shadow */
-  margin-bottom: 10px; /* add some margin below the search bar */
+  box-shadow: 3px 6px 20px rgb(130, 128, 190); 
+  margin-bottom: 10px; 
 }
 
 .search-bar input[type="text"] {
